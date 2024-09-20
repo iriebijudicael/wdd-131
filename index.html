@@ -2,16 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Irie Bi</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Irie Bi Judicael Elvis - Web Development, HTML, CSS, JavaScript">
+    <meta name="author" content="About Me">
 </head>
 <body>
-    <h1>Welcome to WDD131 Web Dynamic Fundamentals</h1>
-    <nav>
-      <a href="aboutme/index.html">About Me Page</a>             
-      <a href="week01/basiclayout.html">Irie Bi Judicael</a>
-    </nav>
-     
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Favorite Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+        <div id="card-img">
+              <img id="image" src="images/card-img.jpg" alt="background image">
+          </div>
+              <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+          </div>
+        </div>
+    <!-- Main Section -->
+    <main>
+        <!-- First Card Section -->
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile .png" alt="Description of Image 1">
+            <h2>Name: Irie Bi Judicael Elvis</h2>
+            <h2>Title: Software Engineer | BYU-Pathway Worldwide Student (Associate Degree in Software Development)
+                Contact Information: Email, LinkedIn, GitHub</h2>
+            <p>
+                Short Bio: I'm Irie Bi Judicael Elvis, a software engineering student at BYU-Pathway Worldwide, pursuing an associate degree in software development. With a strong passion for technology and problem-solving, I am dedicated to building software solutions that improve user experiences and make a positive impact. I have hands-on experience with JavaScript, web development, and am continually expanding my knowledge in software design and programming. My goal is to become a proficient software engineer, capable of developing scalable applications while constantly learning and growing in the field.
+            </p>
+                <h2></h2>
+        </section>
+
+        <!-- Second Card Section -->
+        <section class="card">
+            <h2>Web Dev resources</h2>
+            <img src="images/BYU.png" alt="Description of Image 2">
+            <h2>Development Portfolio & Resources</h2>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="https://www.example3.com" target="_blank">Web Checking</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a></li>
+                <li><a href="https://javascript.info/" target="_blank">javascript</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="currentyear"></span> IRIE, Cote D'Ivoire.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>

@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #f3f6f9;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #30e1b2;
+    color: #fff;
+
+}
+
+.card-img {
+    border: 10px solid #151516;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;    
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);    
+}
+
+/* Layout Structure */
+header, main, footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.582);
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+}
+.card ul li a {
+    font-size: 1.7rem;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+/* Main Content */
+main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #30e1b2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(249, 173, 73);
+}
+p {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
