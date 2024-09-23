@@ -117,7 +117,7 @@ main {
 }
 
 .card-2 {
-    background: linear-gradient(rgb(249, 173, 73),  rgb(249, 173, 73)  250px, #30e1b2 50px);
+    background: linear-gradient(rgb(249, 173, 73),  rgb(249, 173, 73)  180px, #30e1b2 50px);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1.5rem;
