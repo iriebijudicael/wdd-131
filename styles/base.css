@@ -99,6 +99,7 @@ nav ul li a {
     border-radius: 1.0rem;
 }*/
 .card-2 img {
+    display: block;
     max-width: 100%;
     height: auto;
     border-radius: 1.2rem;
