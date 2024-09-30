@@ -1,11 +1,15 @@
-function toggleMenu() {
-    const navlinks = document.getElementById('nav-links');
-    navlinks.classList.toggle('show');
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-    const menuIcon = document.querySelector('menu-icon');
-    menuIcon.classList.toggle('open');
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
 
-}
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+hamburger.classList.remove("active");
+navMenu.classList.remove("active");
+}))
 
 // Dynamically populate the current year in the footer
 document.getElementById("currentyear").textContent = new Date().getFullYear();
