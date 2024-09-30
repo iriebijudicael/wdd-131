@@ -38,7 +38,7 @@ nav a{
 .nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+ul a:hover{
     background-color: #ee740a;
     padding: 16px; 
 }
