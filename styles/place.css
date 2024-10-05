@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #30e1b2; /* define a global variable for primary color */
-  --secondary-color: #fea435; /* define a global variable for secondary color */
+  --primary-color: #30e1b2;
+  --secondary-color: #fea435;
+  --background-image: url("../images/5emepont.webp"); 
 }
 * {
   margin: 0;
