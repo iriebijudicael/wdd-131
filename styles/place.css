@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", system-ui;
   /*background-color: #39b23d; Matches the red background in the image */
   color: white;
   text-align: center;
