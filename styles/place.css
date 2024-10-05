@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #30e1b2; /* define a global variable for primary color */
+  --secondary-color: #fea435; /* define a global variable for secondary color */
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +16,7 @@ body {
 }
 
 header {
-  background: linear-gradient(rgb(249, 173, 73)  110px, #30e1b2 50px);
+  background: linear-gradient(rgb(249, 173, 73)  110px, var(--primary-color) 50px);
   padding: 1.5rem;
 }
 
@@ -23,7 +27,7 @@ h1 {
 }
 
 .hero {
-  background-image: url("../images/5emepont.webp");/* Replace with your image source */
+  background-image: url("../images/5emepont.webp");
   background-size: cover;
   background-position: center;
   padding: 40px;
@@ -33,6 +37,16 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  animation: fade-in 1s; 
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .data-box, .weather-box {
@@ -43,7 +57,11 @@ h1 {
   width: 20%;
   color: #333;
 }
-
+.weather-box::after {
+  content: '⛅️';
+  font-size: 25px;
+  color: #333;
+}
 h2 {
   background-color: #30e1b2; /* Green color for headings */
   padding: 15px;
